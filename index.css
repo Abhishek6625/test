@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    background: url("agri.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+section {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    height: 60px;
+    width: 100%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: space-around; /*left right*/
+    align-items: center;
+    /* flex-direction: column; */
+    background: rgba(0, 0, 0, 0.2);
+}
+
+header a{
+    /* border: 1px solid black; */
+    text-decoration: none;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a:hover{
+    background: lightgreen;
+    color: black;
+}
+
+/* main section  */
+main {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+main h1{
+    margin: 1rem 0rem;
+}
+
+main marquee{
+    margin: 1rem;
+}
+
+main .btn{
+    width: 200px;
+    height: 100px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.5rem 1rem ;
+    background-color: darkgreen;
+    color: white;
+    box-shadow: 0px 2px 5px 0px black;
+    border-radius: 0.4rem;
+}
+
+main div{
+    width: 50%;
+    /* height: 400px; */
+    /* border: 1px solid black; */
+    margin: 2rem auto;
+    text-align: center;
+    /* overflow-y: hidden; */
+}
+
+main div p{
+    margin: 3rem auto;
+}
+
+
+/* footer section  */
+footer {
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: center; /*left right*/
+    align-items: center;
+    background: rgba(29, 89, 33, 0.993);
+}
+footer p{
+    color: white;
+}
